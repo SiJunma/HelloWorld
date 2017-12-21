@@ -73,15 +73,9 @@ right: 0;
 	height: 474px;
 }
 
-.container {
-	max-width: 1170px;
-	padding-left: 0;
-	padding-right: 0;
-}
-
 footer {
 	background: black;
-	padding: 80px 0;
+	padding: 50px 0;
 	text-align: center;
 }
 
@@ -120,4 +114,59 @@ a:hover {
 	border-bottom: 1px solid #fff779;
 	color: #fff779;
 	margin-bottom: 39px;
+}
+
+@media screen and (max-width: 991px) {
+	.center	{
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		margin-bottom: 25px;
+		margin-top: 24px;
+	}
+
+	header, section {
+		margin-bottom: 0px;
+	}
+
+	.paragraf {
+		text-align: left;
+	}
+
+	.no-margin {
+		margin: 0;
+	}
+
+	.margin	{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	.blue2 {
+		padding: 25px 0;
+		margin-top: 25px;
+	}
+
+	.last-h {
+		margin: 0 auto;
+		padding: 0;
+		margin-top: 25px;
+
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.social-links li {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.social a, a:hover {
+		margin-bottom: 10px;
+	}
+
+	.social-links {
+		margin-bottom: 20px;
+	}
 }
